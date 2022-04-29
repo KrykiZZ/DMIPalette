@@ -13,6 +13,9 @@
     <RepositoryUrl>https://raw.githubusercontent.com/KrykiZZ/DMIPalette</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <ApplicationIcon>icon.ico</ApplicationIcon>
+    <FileVersion>1.1.0</FileVersion>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

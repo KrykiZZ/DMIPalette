@@ -38,6 +38,7 @@
             this.buttonExport = new System.Windows.Forms.Button();
             this.buttonSavePalette = new System.Windows.Forms.Button();
             this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureSrcPalette)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureNewPalette)).BeginInit();
             this.SuspendLayout();
@@ -113,6 +114,10 @@
             // 
             this.saveFileDialog1.Filter = "PNG Files|*.png";
             // 
+            // saveFileDialog2
+            // 
+            this.saveFileDialog2.Filter = "DMI Files|*.dmi";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -145,5 +150,6 @@
         private Button buttonExport;
         private Button buttonSavePalette;
         private SaveFileDialog saveFileDialog1;
+        private SaveFileDialog saveFileDialog2;
     }
 }

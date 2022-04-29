@@ -165,7 +165,10 @@ namespace DMIPalette
                 }
             }
 
-            _dmiFile.Save("out.dmi");
+            if (saveFileDialog1.ShowDialog() != DialogResult.OK)
+                return;
+
+            _dmiFile.Save(saveFileDialog1.FileName);
         }
 
         private Bitmap SwapPalette(Bitmap image, Dictionary<Rgba32, Rgba32> pairs)
